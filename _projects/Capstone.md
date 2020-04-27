@@ -1,8 +1,8 @@
 ---
-name: The Movies Project
-tools: [C#, XML, WPF]
-image: https://www.sketchappsources.com/resources/source-image/movie-badges-jurajjurik.png
-description: This project has an individual showcase page, not just a direct link to the project site or repo. Now you have more space to describe your awesome project!
+name: Final Engineering Capstone
+tools: [matlab, python, machine-learning, embedded systems]
+image: https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4k9Q6wSXfl4/v1/1000x-1.jpg
+description: The culmination of my undergraduate engineering degree.
 ---
 
 # The Movies Project
