@@ -1,71 +1,80 @@
-# Site Settings
-encoding: UTF-8
-exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
-lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
-permalink: /blog/:year/:month/:day/:title/
+### Site Settings ###
+title               : Aashin Shazar
+description         : >-
+                      "I turn coffee :coffee: into code,
+                      use tabs over spaces
+                      and never broke production."
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : YoussefRaafatNasry/portfolYOU
 
-whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
+
+### Plugins ###
 plugins:
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-seo-tag
-  - jekyll-sitemap
+  - jemoji
 
-markdown: kramdown
-kramdown:
-  auto_id_prefix: 'heading-'
-  smart_quotes: ["apos", "apos", "quot", "quot"]
-  toc_levels: 1..3
 
-sass:
-  style: compressed
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+  - documentation/partials/**                           # For Documentation Only
 
-# Site Data
-url: # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
-title: Aashin Shazar
-description: "Aashin Shazar's Website"
-keywords: 'jekyll,theme,gem-based,blog'
+
+### Author Info ###
 author:
-  name:
-  job_title:
-  location:
-  email:
-  social_links:
-    - name: facebook
-      url:
-    - name: github
-      url: https://github.com/AashinShazar
-    - name: instagram
-      url:
-    - name: linkedin
-      url: https://www.linkedin.com/in/aashinshazar/
-    - name: stackoverflow
-      url:
-    - name: twitter
-      url: 
-    - name: vk
-      url:
-home:
-  section1: <h1>I am Aashin Shazar</h1>
-  section2: <h2>Welcome to my website.</h2>
-  section3: <div class="social-links">
-            <a class="ico-github btn" href="https://github.com/AashinShazar" title="Creep on GitHub"></a>
-            <a class="ico-linkedin btn" href="https://www.linkedin.com/in/aashinshazar/" title="Stalk on Linkedin"></a>
-            </div>
-blog:
-  cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
-  cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
+  name              : Aashin Shazar
+  image             : https://i.imgur.com/f8sf7oZ.jpg
+#  behance           : ashazar
+# dribbble          : your_username
+  email             : aashinshazar@gmail.com
+#  facebook          : your_username
+  github            : aashinshazar
+# gitlab            : your_username
+# instagram         : your_username
+  linkedin          : aashinshazar
+#  medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+ # twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
 
-disqus:
-  shortname: # e.g. yizeng
-  public_key: # e.g. ULZ0b9TFefCUJHKQd4JCKv2v3u27YoG7YG8zXPewkWrT333Z0Se9YnxLzoV6VM8W
-google_tag_manager: # e.g. 'GTM-KCQJXZ8F'
-addthis_public_id: # AddThis sharing plugin. See http://www.addthis.com/. E.g. ra-53329e27694534j5 
 
-paths:
-  home: /
-  blog: /blog/
-  categories: /blog/categories/
-  tags: /blog/tags/
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+  elements:                                             # For Documentation Only
+    output: true                                        # For Documentation Only
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:                                              # For Documentation Only
+      path: ""                                          # For Documentation Only
+      type: "elements"                                  # For Documentation Only
+    values:                                             # For Documentation Only
+      layout: "element"                                 # For Documentation Only
+
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
