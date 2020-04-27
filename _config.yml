@@ -1,8 +1,8 @@
 ### Site Settings ###
 title               : Aashin Shazar
 description         : >-
-                      "A programmer who's been forklift certified,
-                      not afraid to get his hands dirty :wrench:
+                      "A programmer who's been forklift certified
+                      :wrench:
                       but still knows his way around code blocks."
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : AashinShazar/AashinShazar.github.io   # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
