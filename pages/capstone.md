@@ -1,6 +1,9 @@
- ---
- layout: default
- title: Capstone
- permalink: /capstone/ (the output path for the page)
- weight: 2 (the order of the page in the navigation bar)
- ---
+---
+layout: page
+title: Capstone
+permalink: /capstone/
+weight: 2
+---
+
+# **The Culmination of My Engineering Degree**
+
