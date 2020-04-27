@@ -1,9 +1,9 @@
 ### Site Settings ###
 title               : Aashin Shazar
 description         : >-
-                      "I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production."
+                      "A programmer who's been forklift certified,
+                      not afraid to get his hands dirty :wrench:
+                      but stil knows his way around codeblocks."
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : YoussefRaafatNasry/portfolYOU     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
