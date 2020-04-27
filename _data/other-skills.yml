@@ -1,7 +1,7 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: Machine Learning
+  percentage: 70
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: System Design
+  percentage: 70
   color: success
