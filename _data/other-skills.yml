@@ -5,3 +5,7 @@
 - name: System Design
   percentage: 70
   color: success
+  
+- name: Embedded Systems
+  percentage: 70
+  color: warning
