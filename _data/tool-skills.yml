@@ -1,0 +1,11 @@
+- name: Matlab
+  percentage: 70
+  color: danger
+
+- name: Xilinx ISE
+  percentage: 60
+  color: dark
+
+- name: Intel Quartus Prime
+  percentage: 60
+  color: secondary
