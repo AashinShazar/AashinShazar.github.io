@@ -7,7 +7,7 @@ weight: 5
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :robot: and here’s everything you need to know about me at a glance<br>
+Hi I am **{{ site.author.name }}** :robot: and here’s everything you need to know about me at a glance.<br>
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
