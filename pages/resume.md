@@ -2,5 +2,5 @@
 layout: page
 title: Resume
 external_url: https://google.com/
-weight: 5
+weight: 6
 ---
