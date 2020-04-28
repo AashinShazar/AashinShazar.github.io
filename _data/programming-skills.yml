@@ -6,6 +6,6 @@
   percentage: 70
   color: dark
 
-- name: Java
+- name: Verilog
   percentage: 60
   color: secondary

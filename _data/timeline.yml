@@ -1,21 +1,30 @@
 - title: Student Research Assistant, ICE Lab
   from: March 2020
   to: Present
-  description: Currently working at San Francisco State University's Intelligent and Computing Embedded Systems Lab under Dr. Xiaorong Zhang.          
+  description: I assist with the research and development of next generation neural-machine interfaces for 
+               electromyography-controlled prosthetics at San Francisco State University's 
+               Intelligent and Computing Embedded Systems Lab. 
 
 - title: Engineering Student, San Francisco State University
   from: August 2018
   to: Present
-  description: In my final year of my computer engineering degree. 
+  description: I am in the final year of my computer engineer undergraduate degree and expect to graduate in december 2020.
 
 - title: Machine Learning Engineer Nanodegree Certified
   from: May 2018
-  to: Present
-
+  to: October 2018
+  description: I succesfully completed Udacity's Nanodegree program in Machine Learning!
+  
 - title: Equipment Engineering Intern, Tesla
   from: May 2017
   to: August 2018
+  description: As part of my role at Tesla, I was tasked with the introduction of automation and integration of multi-component systems 
+               in a manufacturing environment. A majority of my work term projects focused in on the collection, 
+               storage and automation of data. As well as investigating machine learning applications to yield greater process efficiency.
   
 - title: Automotive Tedchnician, Mr. Lube
   from: May 2016
   to: August 2016
+  description: As part of my role at Mr. Lube, I worked in a cross functional team to service vehicles for common maintenance issues. 
+                I was tasked with the the service of vehicles both in the engine bay and under the vehicle. 
+                I was able to develop both my hands on and practical skills with this position.
