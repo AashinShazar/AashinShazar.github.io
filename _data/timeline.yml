@@ -1,27 +1,19 @@
 - title: Student Research Assistant, ICE Lab
-  from: 2020
+  from: March 2020
   to: Present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                
 - title: Engineering Student, San Francisco State University
-  from: 2018
+  from: August 2018
   to: Present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-- title: Equipment Engineering Intern
-  title: Tesla
-  from: 2017
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+- title: Machine Learning Engineer Nanodegree Certified
+  from: May 2018
+  to: Present
+
+- title: Equipment Engineering Intern, Tesla
+  from: May 2017
+  to: August 2018
+  
+- title: Automotive Tedchnician, Mr. Lube
+  from: May 2016
+  to: August 2016
