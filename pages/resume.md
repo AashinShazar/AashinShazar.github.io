@@ -1,6 +1,6 @@
 ---
 layout: page
 title: Resume
-external_url: https://google.com/
+external_url: /AashinShazarResume.pdf/
 weight: 6
 ---
