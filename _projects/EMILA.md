@@ -28,7 +28,7 @@ These were some of the major components used in this build:
 -   [MyoWare EMG Sensor ($38)](https://www.amazon.com/MyoWare-Muscle-Sensor/dp/B018TIWR32/ref=sxts_sxwds-bia-wc-p13n1_0?cv_ct_cx=myoware&dchild=1&keywords=myoware&pd_rd_i=B018TIWR32&pd_rd_r=8ebbfe19-06c1-483e-8af4-cd2674677524&pd_rd_w=FpbKs&pd_rd_wg=SsheD&pf_rd_p=13bf9bc7-d68d-44c3-9d2e-647020f56802&pf_rd_r=JMNYYTN6589HHHYSP1KF&psc=1&qid=1597620946&sr=1-1-791c2399-d602-4248-afbb-8a79de2d236f)
 
 
-### Check out the full project here: [https://github.com/AashinShazar/EMILA](https://github.com/AashinShazar/EMILA)
+#### Check out the full project here: [https://github.com/AashinShazar/EMILA](https://github.com/AashinShazar/EMILA)
 
 
 
