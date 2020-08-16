@@ -1,7 +1,6 @@
 ---
-name: PlaceHolder Project 2
-tools: [nothing, important]
-image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore and dolore magna aliqua.
-external_url: https://www.google.com
+name: ReelLife
+tools: [Python, Machine-Learning, Hackathon]
+image: https://p7.hiclipart.com/preview/424/260/988/cinematography-video-camera-film-euclidean-vector-vector-dark-movie-projector.jpg
+description: 2019 SFSU Hackathon Project
 ---
