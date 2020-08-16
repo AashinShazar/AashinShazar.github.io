@@ -1,7 +1,6 @@
 ---
-name: PlaceHolder Project 1
-tools: [nothing, important]
-image: https://www.sketchappsources.com/resources/source-image/project-neon-groove-music-ui.png
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore and dolore magna aliqua.
-external_url: https://www.google.com
+name: EMILA
+tools: [Embedded-Systems, C, Machine-Learning, Python]
+image: https://www.sciencefriday.com/wp-content/uploads/2018/09/robotarm.png
+description: An Investigation into Robotic Prosthetics
 ---
