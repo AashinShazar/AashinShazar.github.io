@@ -9,7 +9,7 @@ description: An Investigation into Robotic Prosthetics
 ![Project Preview](http://ashazar.me/assets/EMILA-GIF.gif)
 
 ## What Is It?
-Project EMILA is a cursory investigation into robotic prosthetics. This project essentially gathers EMG data from EMG sensors and has it interpreted by a machine learning classifier to perform a previously mapped gesture. Much of robotic prosthetics technology is still in its infancy and this project was made to learn more about this growing field and where this technology stands today.
+Project EMILA (Electromyography Muscular Interface Limb Assist) is a cursory investigation into robotic prosthetics. This project essentially gathers EMG data from EMG sensors and has it interpreted by a machine learning classifier to perform a previously mapped gesture. Much of robotic prosthetics technology is still in its infancy and this project was made to learn more about this growing field and where this technology stands today.
 
 ## How Does It Work?
 The heart of the project lies with the usage of the PSOC 5LP which is a microcontroller that collects data from the EMG sensor. This is then transmitted to a locally connected computer where a trained Convolutional Neural Network (CNN) will predict the gesture performed and move the appropriate servo motors on the robot arm.
