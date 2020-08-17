@@ -57,6 +57,11 @@ collections:
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
+### Analytics ###
+analytics:
+  enabled: true                                        # Set true to enable analytics
+  google:
+    tracking_id: UA-175557298-1
 
 ### Defaults for collections ###
 defaults:
