@@ -12,7 +12,7 @@ description: An Investigation into Robotic Prosthetics
 Project EMILA (Electromyography Muscular Interface Limb Assist) is a cursory investigation into robotic prosthetics. This project essentially gathers EMG data from EMG sensors and has it interpreted by a machine learning classifier to perform a previously mapped gesture. Much of robotic prosthetics technology is still in its infancy and this project was made to learn more about this growing field and where this technology stands today.
 
 ## How Does It Work?
-The heart of the project lies with the usage of the PSOC 5LP which is a microcontroller that collects data from the EMG sensor. This is then transmitted to a locally connected computer where a trained Convolutional Neural Network (CNN) will predict the gesture performed and move the appropriate servo motors on the robot arm.
+The heart of the project lies with the usage of the PSOC 5LP which is a microcontroller that collects data from the EMG sensor. This is then transmitted to a locally connected computer where a trained Convolutional Neural Network (CNN) in Python will predict the gesture performed and move the appropriate servo motors on the robot arm.
 
 ## Biggest Challenges
 The biggest challenge I faced working on this project was just how difficult it was to collect data and train a CNN classifier. The very nature of collecting surface EMG data is difficult because of the wide variability presented by muscle fatigue, muscular cross talk, sensor positioning, gesture length, gesture intensity and so many other factors. It took a careful design of data collection experiments to build up a robust dataset.
