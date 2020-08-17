@@ -1,7 +1,7 @@
 ---
 name: ReelLife
 tools: [Python, Machine-Learning, Hackathon]
-image: https://p7.hiclipart.com/preview/424/260/988/cinematography-video-camera-film-euclidean-vector-vector-dark-movie-projector.jpg
+image: https://i5.walmartimages.com/asr/bc1390d5-52e9-4359-acdd-7c38962a67c5_1.8776c90ead6e778008c1152d962cb806.jpeg
 description: 2019 SFSU Hackathon Project
 ---
 
