@@ -21,5 +21,5 @@ The biggest challenge working on this project was building the dataset. It was d
 The main improvement we would work on next time around would be the dataset we've built. Our current dataset consists only of frontal shots of people within movie scenes. This proved to work great in the identification of a majority of highlight scenes within videos. However, a great highlight scene can still lack this frontal shot criteria and still convey a significant message to the video as a whole. We would like to expand this dataset to identify the various different highlight scenes that can exist.
 
 
-#### Check out the full project here: https://github.com/AashinShazar/reellife
+#### Check out the full project here: [https://github.com/AashinShazar/ReelLife](https://github.com/AashinShazar/ReelLife)
 
