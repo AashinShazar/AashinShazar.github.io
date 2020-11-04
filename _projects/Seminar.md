@@ -1,8 +1,8 @@
 ---
 name: PythonSeminar
 tools: [Python, Numpy, Jupyter]
-image: https://i5.walmartimages.com/asr/bc1390d5-52e9-4359-acdd-7c38962a67c5_1.8776c90ead6e778008c1152d962cb806.jpeg
-description: Python Seminar: Intro to Business Applications
+image: http://ashazar.me/assets/seminar.jpg
+description: Python Seminar in Business Applications
 ---
 
 
