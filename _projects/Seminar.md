@@ -6,7 +6,7 @@ description: Python Seminar in Business Applications
 ---
 
 
-# Python Seminar: Intro to Business Applications
+# Python Seminar in Business Applications
 ![Project Preview](http://ashazar.me/assets/seminar.jpg)
 
 ## What Is It?
