@@ -39,4 +39,4 @@ SFTM classifies electrode 22 as faulty though there is no signal fault. Fortunat
 
 Looking at the heatmap on the right, SFTM identifies most of the faulty electrodes. Without removing these, the rest gesture is incorrectly identified as pronation. By removing the faulty electrodes, the gesture classifier can recover and provide the correct result. SFTM still misses out on some of the other faulty electrodes and even identifies other electrodes as faulty. But with the ones it did correctly find, it was able to recover the gesture successfully. 
 
-**In essence, this is the true benefit of SFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults and is able to succesfully recover the gesture performed.**
+**In essence, this is the true benefit of SFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults by confidently recovering and predicting the gesture performed.**
