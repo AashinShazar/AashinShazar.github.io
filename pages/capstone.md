@@ -6,7 +6,7 @@ weight: 2
 ---
 
 # **Development of a Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
-## Our Engineering Design Capstone Project
+## Our Engineering Design Capstone Project 
 ##### By [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar")
 ##### Advised By  [Dr. Xiaorong Zhang, PhD](http://www.sfsu-icelab.org/people/ "Dr. Xiaorong Zhang, PhD")
 
@@ -25,18 +25,20 @@ Note that there is orderly clustering of the seven gesture classes in the first 
 ![Training Data Feature Space for Electrode 191](http://ashazar.me/assets/t1.jpg)
 
 ![Contact Artifact Data Feature Space for Electrode 191](http://ashazar.me/assets/t2.jpg)
-## The SFTM Benefit
+## The PySFTM Benefit
 
-To address these issues, Zhang et al. developed the Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
+To address these issues, Zhang et al. developed the original Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
 
 ![High Level View of SFTM Process](http://ashazar.me/assets/SFTM.jpg)
 
-Below, two adjacent windows were analyzed where the rest gesture was performed. Data on the left presents a view where no fault is present, data on the right presents a view where the contact artifact fault is present, and the pen is striking the grid.  The SFTM procecss is applied to both and results are presented below.
+While prior effort employed low-density electrode arrays of six sensors, this high density application make the use of three electrode array pads with a cofiguration of 8x8 sensors per pad. This results in a huge 192 electrode array configuration that allows for the investigation of SFTM in high density applications. To aid with research and development, PySFTM was developed which contains the focus of this project; a Python implementation of the SFTM algorithm in high density EMG applications.
+
+Below the PySFTM tool is used to analyze two adjacent windows where the rest gesture was performed. Data on the left presents a view where no fault is present, data on the right presents a view where the contact artifact fault is present, and the pen is striking the grid. 
 
 ![Example of SFTM](http://ashazar.me/assets/demo.jpg)
 
-SFTM classifies electrode 22 as faulty though there is no signal fault. Fortunately, removing electrode 22 in error does not affect the gesture classifier's ability to return the correct gesture (rest).  
+PySFTM classifies electrode 22 as faulty though there is no signal fault. Fortunately, removing electrode 22 in error does not affect the gesture classifier's ability to return the correct gesture (rest).  
 
-Looking at the heatmap on the right, SFTM identifies most of the faulty electrodes. Without removing these, the rest gesture is incorrectly identified as pronation. By removing the faulty electrodes, the gesture classifier can recover and provide the correct result. SFTM still misses out on some of the other faulty electrodes and even identifies other electrodes as faulty. But with the ones it did correctly find, it was able to recover the gesture successfully. 
+Looking at the heatmap on the right, PySFTM identifies most of the faulty electrodes. Without removing these, the rest gesture is incorrectly identified as pronation. By removing the faulty electrodes, the gesture classifier can recover and provide the correct result. PySFTM still misses out on some of the other faulty electrodes and even identifies other electrodes as faulty. But with the ones it did correctly find, it was able to recover the gesture successfully. 
 
-**In essence, this is the true benefit of SFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults by confidently recovering and predicting the gesture performed.**
+**In essence, this is the true benefit of PySFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults by confidently recovering and predicting the gesture performed.**
