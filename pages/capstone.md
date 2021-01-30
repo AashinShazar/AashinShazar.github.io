@@ -6,7 +6,7 @@ weight: 2
 ---
 
 # **Development of a Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
-
+## Our Engineering Design Capstone Project
 ##### By [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar")
 ##### Advised By  [Dr. Xiaorong Zhang, PhD](http://www.sfsu-icelab.org/people/ "Dr. Xiaorong Zhang, PhD")
 
@@ -27,11 +27,11 @@ Note that there is orderly clustering of the seven gesture classes in the first 
 ![Contact Artifact Data Feature Space for Electrode 191](http://ashazar.me/assets/t2.jpg)
 ## The SFTM Benefit
 
-To address these issues, Zhang et al. developed the Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level  flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
+To address these issues, Zhang et al. developed the Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
 
 ![High Level View of SFTM Process](http://ashazar.me/assets/SFTM.jpg)
 
-Below, we analyzed two adjacent windows. Data on the left presents a view where no fault is present, data on the right presents a view where the contact artifact fault is present, and the pen is striking the grid. 
+Below, two adjacent windows were analyzed where the rest gesture was performed. Data on the left presents a view where no fault is present, data on the right presents a view where the contact artifact fault is present, and the pen is striking the grid.  The SFTM procecss is applied to both and results are presented below.
 
 ![Example of SFTM](http://ashazar.me/assets/demo.jpg)
 
