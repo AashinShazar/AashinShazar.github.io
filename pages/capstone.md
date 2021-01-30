@@ -5,9 +5,10 @@ permalink: /capstone/
 weight: 2
 ---
 
-# **Development of Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
+# **Development of a Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
 
-##### By [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar") and advised by [Dr. Xiaorong Zhang, PhD](http://www.sfsu-icelab.org/people/ "Dr. Xiaorong Zhang, PhD")
+##### By [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar")
+##### Advised By  [Dr. Xiaorong Zhang, PhD](http://www.sfsu-icelab.org/people/ "Dr. Xiaorong Zhang, PhD")
 
 ## Overview
 The need to reject bad sensor data from EMG limb control systems is well-established. Sensors experiencing temporary faults lead to misclassified gestures which lowers the gesture recognition rate. Prior work by Zhang et al. rejecting faulty sensors from a low-density EMG array needs to be adapted to higher-density EMG arrays with many dozens (or hundreds) of sensors.<sup>[1](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup> 
@@ -37,5 +38,5 @@ Below, we analyzed two adjacent windows. Data on the left presents a view where 
 SFTM classifies electrode 22 as faulty though there is no signal fault. Fortunately, removing electrode 22 in error does not affect the gesture classifier's ability to return the correct gesture (rest).  
 
 Looking at the heatmap on the right, SFTM identifies most of the faulty electrodes. Without removing these, the rest gesture is incorrectly identified as pronation. By removing the faulty electrodes, the gesture classifier can recover and provide the correct result. SFTM still misses out on some of the other faulty electrodes and even identifies other electrodes as faulty. But with the ones it did correctly find, it was able to recover the gesture successfully. 
-**
-In essence, this is the true benefit of SFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults and is able to succesfully recover the gesture performed.**
+
+**In essence, this is the true benefit of SFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults and is able to succesfully recover the gesture performed.**
