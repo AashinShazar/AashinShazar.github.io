@@ -5,7 +5,6 @@ permalink: /capstone/
 weight: 2
 ---
 
-
 # **Development of Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
 
 ### Authors: [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar")
@@ -23,14 +22,14 @@ Signal faults such as 1) physical impacts to an EMG electrode array or 2) myoele
 
 Note that there is orderly clustering of the seven gesture classes in the first figure. This is used as training data to place the linear discriminants. Note that the second figure has no such grouping; it contains data marred by a pen tapping on the electrode grid.
 
-![Training Data Feature Space for Electrode 191](http:ashazar.me/assets/t1.jpg)
+![Training Data Feature Space for Electrode 191](http://ashazar.me/assets/t1.jpg)
 
-![Contact Artifact Data Feature Space for Electrode 191](http:ashazar.me/assets/t2.jpg)
+![Contact Artifact Data Feature Space for Electrode 191](http://ashazar.me/assets/t2.jpg)
 ## The SFTM Benefit
 
 To address these issues, Zhang et al. developed the Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier’s LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level  flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
 
-![High Level View of SFTM Process](http:ashazar.me/assets/SFTM.jpg)
+![High Level View of SFTM Process](http://ashazar.me/assets/SFTM.jpg)
 
 ### Contact Artifact Set
 
