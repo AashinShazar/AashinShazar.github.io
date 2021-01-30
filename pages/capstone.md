@@ -5,9 +5,11 @@ permalink: /capstone/
 weight: 2
 ---
 
+
 # **Development of Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
 
-### Authors: [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar")
+### Authors: [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar") 
+
 ### Advised By: [Dr. Xiaorong Zhang, PhD](http://www.sfsu-icelab.org/people/ "Dr. Xiaorong Zhang, PhD")
 
 ## Overview
@@ -27,10 +29,16 @@ Note that there is orderly clustering of the seven gesture classes in the first 
 ![Contact Artifact Data Feature Space for Electrode 191](http://ashazar.me/assets/t2.jpg)
 ## The SFTM Benefit
 
-To address these issues, Zhang et al. developed the Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier’s LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level  flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
+To address these issues, Zhang et al. developed the Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level  flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
 
 ![High Level View of SFTM Process](http://ashazar.me/assets/SFTM.jpg)
 
-### Contact Artifact Set
+Below, we analyzed two adjacent windows. Data on the left presents a view where no fault is present, data on the right presents a view where the contact artifact fault is present, and the pen is striking the grid. 
 
-### Lifted Electrode Set
+![Example of SFTM](http://ashazar.me/assets/demo.jpg)
+
+SFTM classifies electrode 22 as faulty though there is no signal fault. Fortunately, removing electrode 22 in error does not affect the gesture classifier's ability to return the correct gesture (rest).  
+
+Looking at the heatmap on the right, SFTM identifies most of the faulty electrodes. Without removing these, the rest gesture is incorrectly identified as pronation. By removing the faulty electrodes, the gesture classifier can recover and provide the correct result. SFTM still misses out on some of the other faulty electrodes and even identifies other electrodes as faulty. But with the ones it did correctly find, it was able to recover the gesture successfully. 
+
+In essence, this is the true benefit of SFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults and is able to succesfully recover the gesture performed.
