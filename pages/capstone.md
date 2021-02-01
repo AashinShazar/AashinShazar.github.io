@@ -25,7 +25,7 @@ Note that there is orderly clustering of the seven gesture classes in the first 
 ![Training Data Feature Space for Electrode 191](http://ashazar.me/assets/t1.jpg)
 
 ![Contact Artifact Data Feature Space for Electrode 191](http://ashazar.me/assets/t2.jpg)
-## The PySFTM Benefit
+## The Solution
 
 To address these issues, Zhang et al. developed the original Sensor Fault-Tolerance Module (SFTM) that rejects faulty electrode data using a Linear Discriminant Analysis (LDA) classifier. By removing faulty sensors from the gesture classifier LDA covariance matrix and means (effectively retraining the classifier on the fly), it  reduced the number of incorrect gesture classifications. A high level flow chart is seen in figure below. <sup>[3](https://pubmed.ncbi.nlm.nih.gov/25888946/)</sup>
 
