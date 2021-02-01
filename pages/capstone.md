@@ -31,7 +31,7 @@ To address these issues, Zhang et al. developed the original Sensor Fault-Tolera
 
 ![High Level View of SFTM Process](http://ashazar.me/assets/SFTM.jpg)
 
-While prior effort employed low-density electrode arrays of six sensors, this high density application make the use of three electrode array pads with a cofiguration of 8x8 sensors per pad. This results in a huge 192 electrode array configuration that allows for the investigation of SFTM in high density applications. To aid with research and development, PySFTM was developed which contains the focus of this project; a Python implementation of the SFTM algorithm in high density EMG applications.
+While prior effort employed low-density electrode arrays of six sensors, this high density application makes the use of three electrode array pads with a cofiguration of 8x8 sensors per pad. This results in a huge 192 electrode array configuration that allows for the investigation of SFTM in high density applications. To aid with research and development, PySFTM was developed which contains the focus of this project; a Python implementation of the SFTM algorithm in high density EMG applications.
 
 Below the PySFTM tool is used to analyze two adjacent windows where the rest gesture was performed. Data on the left presents a view where no fault is present, data on the right presents a view where the contact artifact fault is present, and the pen is striking the grid. 
 
