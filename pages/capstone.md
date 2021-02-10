@@ -40,4 +40,4 @@ PySFTM classifies electrode 22 as faulty though there is no signal fault. Fortun
 
 Looking at the heatmap on the right, PySFTM identifies most of the faulty electrodes. Without removing these, the rest gesture is incorrectly identified as pronation. By removing the faulty electrodes, the gesture classifier can recover and provide the correct result. PySFTM still misses out on some of the other faulty electrodes and even identifies other electrodes as faulty. However, with the ones it did correctly find, it was able to recover the gesture successfully. 
 
-**In essence, this is the true benefit of PySFTM. It is succesfully able to overcome the limitations of the LDA classifier when met with signal faults by confidently recovering and predicting the gesture performed.**
+**In essence, this is the true benefit of PySFTM. It is successfully able to overcome the limitations of the LDA classifier when met with signal faults by confidently recovering and predicting the gesture performed.**
