@@ -7,6 +7,7 @@ weight: 2
 
 # **Development of a Sensor Fault-Tolerant Module for High-Density EMG Pattern Recognition**
 ## Our Engineering Design Capstone Project 
+## [Now Published at the IEEE Engineering in Medicine and Biology Society Conference.](https://ieeexplore.ieee.org/document/9629541)
 ##### By [Don Reynolds](https://www.linkedin.com/in/donvision/ "Don Reynolds") and [Aashin Shazar](https://www.linkedin.com/in/aashinshazar/ " Aashin Shazar")
 ##### Advised By  [Dr. Xiaorong Zhang, PhD](http://www.sfsu-icelab.org/people/ "Dr. Xiaorong Zhang, PhD")
 
